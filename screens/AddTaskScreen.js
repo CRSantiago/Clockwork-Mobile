@@ -271,7 +271,7 @@ function AddTaskScreen() {
               <Button title="Cancel" onPress={handleCancel} color="#E10600" />
             </View>
             {successfulAdd && (
-              <Text style={styles.successText}>Task succussfully added</Text>
+              <Text style={styles.successText}>Task successfully added</Text>
             )}
           </View>
         </ScrollView>
